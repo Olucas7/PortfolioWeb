@@ -1,3 +1,27 @@
+/*
+reglas:
+selectores; esta formados por como identificamos un elemento html
+declaraciones; las cosas que hacemos que con esos selectores
+propiedades; cosas particulares que podemos hacer sobre ese elemento
+valores; cosas que esperan recibir como variables las propiedades para actuar de forma correcta
+*/
 header{
     background: pink;
 }
+
+/* selectores */
+
+/* selector de etiqueta header - seccion - article - nav */
+
+/* selector descendente  */
+/* body header div nav ol li a */
+
+/* selector de clase . */
+/* .link */
+
+/* selector de id -> #nombreid */
+
+
+/* declaraciones, propiedades y valores */
+/* una declaracon es todo lo que esta dentro de las llaves y termina sin punto y coma. las propiedades son los atributos que 
+queremos dentro de esa declaracion y los valores son lo que se especifica en las propiedades */
