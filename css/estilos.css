@@ -5,8 +5,18 @@ declaraciones; las cosas que hacemos que con esos selectores
 propiedades; cosas particulares que podemos hacer sobre ese elemento
 valores; cosas que esperan recibir como variables las propiedades para actuar de forma correcta
 */
-header{
-    background: silver;
+body{
+    font-family: 'Source Sans Pro', sans-serif; 
+    
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    font-family: 'Fjalla One', sans-serif;
 }
 
 /* selectores */
