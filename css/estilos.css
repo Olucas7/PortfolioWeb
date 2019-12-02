@@ -6,8 +6,8 @@ propiedades; cosas particulares que podemos hacer sobre ese elemento
 valores; cosas que esperan recibir como variables las propiedades para actuar de forma correcta
 */
 body{
-    font-family: 'Source Sans Pro', sans-serif; 
-    
+    font-family: 'Source Sans Pro', sans-serif;
+    margin: 0;    
 }
 
 h1,
@@ -30,8 +30,9 @@ h1{
     color: white;
     text-transform: capitalize;
     margin: 100px 500px 70px 30px;
-
-    
+}
+.portfolio{
+    background: #fafafa;
 }
 .project {
     /*border-top: 10px solid red;
@@ -41,7 +42,11 @@ h1{
     border: 1px solid gray;
     border-radius: 10px;
     /* border-top-left-radius: 50px; */
+    margin: 10px;
     margin-bottom: 15px;
+    padding: 20px;
+    background: white;
+    
 }
 .project-details{
     width: 500px;
