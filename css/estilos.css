@@ -27,8 +27,45 @@ h1{
     letter-spacing: -.2px; /*Separacion de entre letras*/
     /*text-transform: uppercase;/*Transformaciones de texto*/
     /*text-decoration: dashed ;/*Decoracion de texto*/
+    color: white;
+    text-transform: capitalize;
+    
+}
+.project-details{
+    width: 500px;
+}
+.project-imageContainer{
+    width: 500px;
+}
+.hero{
+    height: 250px;
+    background-image: url('../desarrollo-web-portafolio/images/hero.jpg');/*Agregar imagen de fondo con url*/
+    background-color: #1b2127;
+    background-size:500px 300px;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    
+    
+}
+.hero strong{
+    color: #026fff ;
 }
 
+/*
+gris oscuro = #1d252c
+gris claro = #626262
+background gris = #1b2127
+celeste = #026fff
+*/
+.header{
+    background-color: #1b2127;
+    color: white;
+}
+.header a {/*etiqueta heredada*/
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+}
 /* selectores */
 
 /* selector de etiqueta header - seccion - article - nav */
