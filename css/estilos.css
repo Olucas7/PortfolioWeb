@@ -19,6 +19,7 @@ h6{
     font-family: 'Fjalla One', sans-serif;/*tipo de fuente*/
     font-weight: normal;/*peso de la fuente*/
     /*font-style: italic ;/*estilo de la fuente*/
+    text-transform: capitalize;
 }
 
 h1{
@@ -33,6 +34,7 @@ h1{
 }
 .portfolio{
     background: #fafafa;
+    
 }
 .project {
     /*border-top: 10px solid red;
@@ -46,10 +48,14 @@ h1{
     margin-bottom: 15px;
     padding: 20px;
     background: white;
+    display: flex;
+    
+    
     
 }
 .project-details{
     width: 500px;
+    
 }
 .project-imageContainer{
     width: 500px;
@@ -82,6 +88,20 @@ celeste = #026fff
     color: white;
     text-decoration: none;
     text-transform: capitalize;
+}
+
+.flexbox{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.box{
+    width: 50px;
+    height: 50px;
+    border: 5px solid red;
+    flex-shrink: 0;
+    margin: 20px;
 }
 /* selectores */
 
