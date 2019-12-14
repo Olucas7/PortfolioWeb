@@ -80,36 +80,116 @@ gris claro = #626262
 background gris = #1b2127
 celeste = #026fff
 */
+
 .header{
     background-color: #1b2127;
     color: white;
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    
 }
+
+ol,
+ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    
+}
+
+figure{
+    margin: 0;
+}
+
 .header a {/*etiqueta heredada*/
     color: white;
     text-decoration: none;
     text-transform: capitalize;
+    display: block;
+    
 }
 
+.header ol {
+    display: flex;
+    height: inherit;
+    
+}
+.header ol li{
+    height: inherit;
+    
+}
+
+.header a {
+    display: flex;
+    align-items: center;
+    height:inherit;
+}
+
+.menu {
+    height: inherit;
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*
 .flexbox{
     display: flex;
     flex-direction: row;
     /* flex-direction: column; */
-    flex-wrap: wrap;
+    /*flex-wrap: wrap;
     /* flex-wrap: nowrap; */
-}
-
+/*
 .box{
     width: 50px;
     height: 50px;
     border: 5px solid red;
     flex-shrink: 0; /*capacidad de encogimiento */
-    margin: 20px;
+    /* margin: 20px;
     /* justify-content: ; */
     /* align-items: flex-end; hacia abajo verticalmente */
     /* align-items: center; */
     /* align-self: ; items hijos se alinean por si mismos */
 
-}
+
 /* selectores */
 
 /* selector de etiqueta header - seccion - article - nav */
